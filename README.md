@@ -6,15 +6,16 @@ A micro (1.13kb compressed) script to make it easier to add callbacks to element
 * Run an `onLeave` function, when the object exists the viewport at said threshold (optional)
 * Set whether the `onEnter` function runs only once (for example, if you are manually lazyloading content) or repeats infinitely
 
-### Example code
+### Simple callback example
 
 ```JavaScript
 import WhenVisible from './index.js';
 
 let element = document.getElementById('your-element');
-let onEnterCallback = function() { ... };
 
-new WhenVisible(element, onEnterCallback);
+new WhenVisible(element, function() {
+  // ...
+});
 ```
 
 ### Interface
