@@ -1,5 +1,5 @@
 # When Visible
-A micro (1.13kb) script to make it easier to add callbacks to elements when they enter the viewport. **Zero dependences**. This script utilises the [IntersectionalObserver API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) for minimum overhead and no need for scroll listeners! With this plugin, you can:
+A micro (1.13kb compressed) script to make it easier to add callbacks to elements when they enter the viewport. **Zero dependences**! This script utilises the [IntersectionalObserver API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) for minimum overhead and no need for scroll listeners. With this plugin, you can:
 
 * Detect when an element is visible in the viewport, including by an arbitrary threshold
 * Run an `onEnter` function when the object enters the viewport at said threshold
